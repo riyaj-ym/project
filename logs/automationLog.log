@@ -1,6 +1,11 @@
-01/27/2023 02:52:46 PM, INFO, ------------------ TestLogin01 ------------------ 
-01/27/2023 02:52:46 PM, INFO, ====== WebDriver manager ======
-01/27/2023 02:52:48 PM, INFO, Get LATEST chromedriver version for google-chrome 109.0.5414
-01/27/2023 02:52:50 PM, INFO, Driver [C:\Users\riyaj\.wdm\drivers\chromedriver\win32\109.0.5414\chromedriver.exe] found in cache
-01/27/2023 02:52:52 PM, INFO, ------------------ Testing website url ------------------ 
-01/27/2023 02:52:54 PM, INFO, ------------------ website url testing got passed ------------------ 
+01/27/2023 08:06:16 PM, INFO, ------------------ TestLogin101 ------------------ 
+01/27/2023 08:06:17 PM, INFO, ====== WebDriver manager ======
+01/27/2023 08:06:21 PM, INFO, Get LATEST chromedriver version for google-chrome 109.0.5414
+01/27/2023 08:06:22 PM, INFO, Driver [C:\Users\riyaj\.wdm\drivers\chromedriver\win32\109.0.5414\chromedriver.exe] found in cache
+01/27/2023 08:06:27 PM, INFO, ------------------ Testing website url ------------------ 
+01/27/2023 08:06:28 PM, INFO, ------------------ website url testing got passed ------------------ 
+01/27/2023 08:06:37 PM, INFO, ====== WebDriver manager ======
+01/27/2023 08:06:39 PM, INFO, Get LATEST chromedriver version for google-chrome 109.0.5414
+01/27/2023 08:06:40 PM, INFO, Driver [C:\Users\riyaj\.wdm\drivers\chromedriver\win32\109.0.5414\chromedriver.exe] found in cache
+01/27/2023 08:06:41 PM, INFO, ------------------ Testing Home Page Title(Login Test) ------------------ 
+01/27/2023 08:06:51 PM, INFO, ------------------ Home Page Title(Login Test) Passed ------------------

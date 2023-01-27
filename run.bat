@@ -1,2 +1,3 @@
 rem pytest -rA -v -s
-pytest -rA -v -s --browser edge
+rem pytest -rA -v -s --browser edge
+pytest -rA -v -s --browser firefox

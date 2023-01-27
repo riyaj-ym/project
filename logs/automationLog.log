@@ -1,3 +1,6 @@
-01/27/2023 12:18:28 AM, INFO, ------------------ TestLogin01 ------------------ 
-01/27/2023 12:18:30 AM, INFO, ------------------ Testing website url ------------------ 
-01/27/2023 12:18:32 AM, INFO, ------------------ website url testing got passed ------------------ 
+01/27/2023 02:52:46 PM, INFO, ------------------ TestLogin01 ------------------ 
+01/27/2023 02:52:46 PM, INFO, ====== WebDriver manager ======
+01/27/2023 02:52:48 PM, INFO, Get LATEST chromedriver version for google-chrome 109.0.5414
+01/27/2023 02:52:50 PM, INFO, Driver [C:\Users\riyaj\.wdm\drivers\chromedriver\win32\109.0.5414\chromedriver.exe] found in cache
+01/27/2023 02:52:52 PM, INFO, ------------------ Testing website url ------------------ 
+01/27/2023 02:52:54 PM, INFO, ------------------ website url testing got passed ------------------ 

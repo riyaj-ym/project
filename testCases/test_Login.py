@@ -41,10 +41,11 @@ class TestLogin101:
         lp.setUserPassword(self.password)
         lp.clickLogin()
         actTitle = driver.title
-        lp.clickLogout()
+
         if actTitle == "Dashboard / nopCommerce administration":
             self.logger.info("------------------ Home Page Title(Login Test) Passed ------------------")
             assert True
+
         else:
             self.logger.info("------------------ Home Page Title(Login Test) Failed ------------------")
             driver.save_screenshot(os.getcwd() + "/screenshots/test_homePageTitle.png")

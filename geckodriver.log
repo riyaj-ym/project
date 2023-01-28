@@ -831,3 +831,29 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
 1674834066852	Marionette	INFO	Stopped listening on port 62251
 Dynamically enable window occlusion 1
+1674843751183	geckodriver	INFO	Listening on 127.0.0.1:50421
+1674843754234	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50422" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\riyaj\\AppData\\Local\\Temp\\rust_mozprofilejOHYd6"
+1674843755367	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674843755380	Marionette	INFO	Listening on port 50429
+Read port: 50429
+WebDriver BiDi listening on ws://127.0.0.1:50422
+1674843755653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\riyaj\\AppData\\Local\\Temp\\rust_mozprofilejOHYd6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50422/devtools/browser/ca502e51-7d08-494f-b1b6-2d323a3068dd
+1674843762758	Marionette	INFO	Stopped listening on port 50429
+Dynamically enable window occlusion 1
+1674843768101	geckodriver	INFO	Listening on 127.0.0.1:50463
+1674843771191	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50464" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\riyaj\\AppData\\Local\\Temp\\rust_mozprofileyaRCEh"
+1674843771771	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674843771779	Marionette	INFO	Listening on port 50471
+Read port: 50471
+WebDriver BiDi listening on ws://127.0.0.1:50464
+1674843772017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\riyaj\\AppData\\Local\\Temp\\rust_mozprofileyaRCEh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50464/devtools/browser/cde12566-53c1-4696-8696-df5bd03ba4ed
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1674843781894	Marionette	INFO	Stopped listening on port 50471
+Dynamically enable window occlusion 1

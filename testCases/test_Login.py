@@ -13,6 +13,7 @@ class TestLogin101:
     logger = LogGen.logGen()
     logger.info("------------------ TestLogin101 ------------------ ")
 
+    @pytest.mark.retesting
     def test_url(self, setup):
         self.logger.info("------------------ Testing website url ------------------ ")
         driver = setup
@@ -30,6 +31,7 @@ class TestLogin101:
             driver.save_screenshot(os.getcwd() + "/screenshots/test_url.png")
             assert False
 
+    @pytest.mark.regression
     def test_homePageTitle(self, setup):
         self.logger.info("------------------ Testing Home Page Title(Login Test) ------------------ ")
         driver = setup

@@ -8,7 +8,7 @@ def setup(browser):
     if browser == "edge":
         from selenium.webdriver.edge.service import Service
         from webdriver_manager.microsoft import EdgeChromiumDriverManager
-        ser_obj = Service(EdgeChromiumDriverManager().install())
+        ser_obj = Service(executable_path=EdgeChromiumDriverManager().install())
         ops = webdriver.EdgeOptions()
         ops.add_experimental_option('detach', True)
         ops.add_experimental_option('excludeSwitches', ['enable-logging'])
@@ -20,7 +20,7 @@ def setup(browser):
     elif browser == "firefox":
         from selenium.webdriver.firefox.service import Service
         from webdriver_manager.firefox import GeckoDriverManager
-        ser_obj = Service(GeckoDriverManager().install())
+        ser_obj = Service(executable_path=GeckoDriverManager().install())
         ops = webdriver.FirefoxOptions()
         driver = webdriver.Firefox(service=ser_obj, options=ops)
         yield driver
@@ -30,7 +30,7 @@ def setup(browser):
     else:
         from selenium.webdriver.chrome.service import Service
         from webdriver_manager.chrome import ChromeDriverManager
-        ser_obj = Service(ChromeDriverManager().install())
+        ser_obj = Service(executable_path=ChromeDriverManager().install())
         ops = webdriver.ChromeOptions()
         ops.add_experimental_option('detach', True)
         ops.add_experimental_option('excludeSwitches', ['enable-logging'])
